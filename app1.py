@@ -27,7 +27,7 @@ def hc():
     return 'OKOKOK'
 
 @app.route('/hc1')
-def hc():
+def hc1():
     return 'OKOKOK'
 
 if __name__ == '__main__':
