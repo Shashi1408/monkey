@@ -30,5 +30,9 @@ def hc():
 def hc1():
     return 'Monkey is dancing'
 
+@app.route('/hc2')
+def hc1():
+    return 'Monkey is dancing'
+
 if __name__ == '__main__':
   app.run(host='0.0.0.0')
