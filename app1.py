@@ -28,7 +28,7 @@ def hc():
 
 @app.route('/hc1')
 def hc1():
-    return 'OKOKOK'
+    return 'Monkey is dancing'
 
 if __name__ == '__main__':
   app.run(host='0.0.0.0')
