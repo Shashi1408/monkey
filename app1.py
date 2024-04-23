@@ -26,5 +26,11 @@ def rd():
 def hc():
     return 'OKOKOK'
 
+@app.route('/hc1')
+def hc():
+    return 'OKOKOK'
+
+if __name__ == '__main__':
+  app.run(host='0.0.0.0')
 if __name__ == '__main__':
   app.run(host='0.0.0.0')
